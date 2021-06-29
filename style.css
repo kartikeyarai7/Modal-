@@ -1,0 +1,70 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mod{
+    
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 35%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    text-align: center;
+    margin: 100px;
+    position: relative;
+    /* z-index: 1; */
+}
+
+h2{
+    margin: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+}
+
+.content button{
+    background: transparent;
+    border: none;
+    margin-left: 58%;
+    transform: scale(2);    
+}
+
+.vis{
+    display: none;
+
+}
+
+i{
+    color: red;
+    background: transparent;
+}
+
+#welcome{
+    height: 100vh;
+}
